@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="am">
+
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="admin-container">
+<h1>Admin Dashboard</h1>
+<button class="logout-btn" onclick="logout()">Logout</button>
+
+<h2>Add Question</h2>
+<form id="admin-question-form">
+<input type="text" id="question" placeholder="Question" required>
+<input type="text" id="correct" placeholder="Correct Answer" required>
+<input type="text" id="wrong1" placeholder="Wrong Answer" required>
+<input type="text" id="wrong2" placeholder="Wrong Answer" required>
+<button type="submit">Add Question</button>
+</form>
+
+<h2>Question List</h2>
+<ul id="question-list"></ul>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

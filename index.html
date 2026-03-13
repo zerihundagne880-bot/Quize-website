@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="am">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>የኔ ዌብሳይት</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Zerihun</div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="login.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <img src="/quize webiset /IMG_20250624_101911_569.jpg" alt="Profile Photo" class="profile-photo">
+
+        <h1>ሰላም! እኔ ዘሪሁን ነኝ</h1>
+        <p>የዌብሳይት አልሚ (Web Developer) ነኝ።</p>
+        <button onclick="scrollToProjects()">ስራዎቼን እይ</button>
+    </header>
+
+    <section id="projects">
+        <h2>የሰራኋቸው ስራዎች</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Quiz App</h3>
+                <p>በ HTML, CSS እና JS የተሰራ አስደሳች የጥያቄ መተግበሪያ።</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="add-question-section">
+        <h2>አዲስ ጥያቄ ጨምር</h2>
+        <form id="question-form">
+            <input type="text" id="new-question" placeholder="ጥያቄውን እዚህ ይጻፉ..." required>
+            <input type="text" id="choice1" placeholder="ምርጫ 1 (ትክክለኛ መልስ)" required>
+            <input type="text" id="choice2" placeholder="ምርጫ 2" required>
+            <input type="text" id="choice3" placeholder="ምርጫ 3" required>
+            <button type="submit">ጥያቄውን መዝግብ</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h2>ያግኙኝ</h2>
+        <p>ጥያቄ ወይም የስራ ሃሳብ ካለዎት በዚህ አድራሻ ይጻፉልኝ፡</p>
+        <a href="mailto:zerihundagne880@gmail.com" class="email-link">zerihundagne880@gmail.com</a>
+        <p class="copyright">&copy; 2026 ዘሪሁን ዳኘ። መብቱ የተጠበቀ ነው።</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
