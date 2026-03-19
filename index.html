@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="am">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>የኔ ዌብሳይት</title>
+    <title>My Portfolio | Zerihun</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,39 +26,40 @@
     </nav>
 
     <header id="home">
+        <!-- Make sure this path is correct in your project folder -->
         <img src="/quize webiset /IMG_20250624_101911_569.jpg" alt="Profile Photo" class="profile-photo">
 
-        <h1>ሰላም! እኔ ዘሪሁን ነኝ</h1>
-        <p>የዌብሳይት አልሚ (Web Developer) ነኝ።</p>
-        <button onclick="scrollToProjects()">ስራዎቼን እይ</button>
+        <h1>Hello! I'm Zerihun</h1>
+        <p>I am a passionate Web Developer.</p>
+        <button onclick="scrollToProjects()">View My Work</button>
     </header>
 
     <section id="projects">
-        <h2>የሰራኋቸው ስራዎች</h2>
+        <h2>My Projects</h2>
         <div class="project-grid">
             <div class="project-card">
                 <h3>Quiz App</h3>
-                <p>በ HTML, CSS እና JS የተሰራ አስደሳች የጥያቄ መተግበሪያ።</p>
+                <p>An interactive quiz application built with HTML, CSS, and JavaScript.</p>
             </div>
         </div>
     </section>
 
     <section id="add-question-section">
-        <h2>አዲስ ጥያቄ ጨምር</h2>
+        <h2>Add a New Question</h2>
         <form id="question-form">
-            <input type="text" id="new-question" placeholder="ጥያቄውን እዚህ ይጻፉ..." required>
-            <input type="text" id="choice1" placeholder="ምርጫ 1 (ትክክለኛ መልስ)" required>
-            <input type="text" id="choice2" placeholder="ምርጫ 2" required>
-            <input type="text" id="choice3" placeholder="ምርጫ 3" required>
-            <button type="submit">ጥያቄውን መዝግብ</button>
+            <input type="text" id="new-question" placeholder="Enter the question here..." required>
+            <input type="text" id="choice1" placeholder="Choice 1 (Correct Answer)" required>
+            <input type="text" id="choice2" placeholder="Choice 2" required>
+            <input type="text" id="choice3" placeholder="Choice 3" required>
+            <button type="submit">Register Question</button>
         </form>
     </section>
 
     <footer id="contact">
-        <h2>ያግኙኝ</h2>
-        <p>ጥያቄ ወይም የስራ ሃሳብ ካለዎት በዚህ አድራሻ ይጻፉልኝ፡</p>
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or business ideas, feel free to contact me at:</p>
         <a href="mailto:zerihundagne880@gmail.com" class="email-link">zerihundagne880@gmail.com</a>
-        <p class="copyright">&copy; 2026 ዘሪሁን ዳኘ። መብቱ የተጠበቀ ነው።</p>
+        <p class="copyright">&copy; 2026 Zerihun Dagne. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
